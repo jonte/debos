@@ -33,6 +33,7 @@ Comments are allowed and should be prefixed with '#' symbol.
 The following custom template functions are available
 
 - sector: Returns the argument * 512 (convential sector size) e.g. `{{ sector 64 }}`
+
 - escape: Shell escape the  argument `{{ escape $var }}`
 
 Mandatory properties for recipe:
